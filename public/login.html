@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Billing Management Dashboard</title>
+  <link rel="stylesheet" href=".css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2>Hospital Billing</h2>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Patient Management</a></li>
+      <li><a href="#">Invoice & Billing</a></li>
+      <li><a href="#">Payment Management</a></li>
+      <li><a href="#">Insurance Management</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Header -->
+    <header>
+      <div class="header-info">
+        <div class="hospital-name">Hospital Name</div>
+        <div class="user-info">
+          <span>Welcome, Admin</span>
+          <span> | </span>
+          <span>January 30, 2025</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Dashboard -->
+    <div class="dashboard">
+      <div class="dashboard-card">
+        <h3>Total Invoices Created</h3>
+        <p class="card-data">125</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Outstanding Balance</h3>
+        <p class="card-data">$25,000</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Payments Received Today</h3>
+        <p class="card-data">$5,000</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Pending Claims</h3>
+        <p class="card-data">15</p>
+      </div>
+    </div>
+
+    <!-- Recent Invoices -->
+    <section class="recent-invoices">
+      <h2>Recent Invoices</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Invoice #</th>
+            <th>Patient Name</th>
+            <th>Date</th>
+            <th>Amount Due</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>INV001</td>
+            <td>John Doe</td>
+            <td>2025-01-25</td>
+            <td>$1,200</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>INV002</td>
+            <td>Jane Smith</td>
+            <td>2025-01-27</td>
+            <td>$800</td>
+            <td>Paid</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
